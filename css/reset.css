@@ -1,0 +1,18 @@
+h1, h2, h3, p, ul, li {
+  margin: 20px;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background-color: MediumSeaGreen;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section {
+  background-color: #ffcfcf;
+}
+
+ul, li {
+  list-style-type: none;
+}
