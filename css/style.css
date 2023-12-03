@@ -1,7 +1,7 @@
 #main-menu {
   background-color: #86f8c6;
   overflow: hidden;
-  border: 5px;
+  border: 5px solid; 
   border-radius: 5px;
 }
 
@@ -17,7 +17,7 @@
   margin: 0;
   position: relative;
   left: 50%;
-  float:left;
+  float: left;
   text-align: center;
 }
 
@@ -37,6 +37,7 @@
 
 #main-menu ul li a:hover {
   background-color: white;
+  color: #86f8c6; 
 }
 
 #main-menu ul li a:link {
@@ -45,44 +46,38 @@
   font-family: Arial, sans-serif;
 }
 
+
 body {
   background-color: MediumSeaGreen;
   font-family: "Times New Roman", Times, serif;
 }
 
+
 section {
   background-color: #ffcfcf;
   width: 800px;
-  display: block;
   margin: 20px auto;
   padding: 20px;
   border-radius: 5px;
 }
+
 
 h1, h3 {
   text-align: center;
   text-decoration: underline;
 }
 
-.skyline {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.skyline-caption {
-  text-align: center;
-}
 
 img {
   width: 500px;
   height: auto;
-  border: 5px;
+  border: 5px solid;
   border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 iframe {
   width: 570px;
